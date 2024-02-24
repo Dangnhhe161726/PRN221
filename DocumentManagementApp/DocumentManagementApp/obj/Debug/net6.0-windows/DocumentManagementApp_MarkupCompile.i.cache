@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Learn_C#\Project\PRN221\DocumentManagementApp\DocumentManagementApp\obj\Debug\net6.0-windows\
+C:\Users\ADMIN\Desktop\New folder (8)\PRN221\DocumentManagementApp\DocumentManagementApp\obj\Debug\net6.0-windows\
 DocumentManagementApp
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\Learn_C#\Project\PRN221\DocumentManagementApp\DocumentManagementApp\App.xaml
-11407045341
+C:\Users\ADMIN\Desktop\New folder (8)\PRN221\DocumentManagementApp\DocumentManagementApp\App.xaml
+3-1126475658
 
-61557013615
-194-428966090
-MainWindow.xaml;
+22-1064709054
+220-441443321
+MainWindow.xaml;Managerment.xaml;Register.xaml;
 
-False
+True
 
