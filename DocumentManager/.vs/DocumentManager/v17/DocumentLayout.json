@@ -1,0 +1,114 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Windows 11\\Desktop\\New folder\\DocumentManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|c:\\users\\windows 11\\desktop\\new folder\\documentmanager\\documentmanager\\models\\sercurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\models\\sercurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|c:\\users\\windows 11\\desktop\\new folder\\documentmanager\\documentmanager\\models\\signer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\models\\signer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|c:\\users\\windows 11\\desktop\\new folder\\documentmanager\\documentmanager\\models\\specialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\models\\specialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|c:\\users\\windows 11\\desktop\\new folder\\documentmanager\\documentmanager\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 195,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sercurity.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\Desktop\\New folder\\DocumentManager\\DocumentManager\\Models\\Sercurity.cs",
+              "RelativeDocumentMoniker": "DocumentManager\\Models\\Sercurity.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\Desktop\\New folder\\DocumentManager\\DocumentManager\\Models\\Sercurity.cs",
+              "RelativeToolTip": "DocumentManager\\Models\\Sercurity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAkwAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T10:20:06.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Signer.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\Desktop\\New folder\\DocumentManager\\DocumentManager\\Models\\Signer.cs",
+              "RelativeDocumentMoniker": "DocumentManager\\Models\\Signer.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\Desktop\\New folder\\DocumentManager\\DocumentManager\\Models\\Signer.cs",
+              "RelativeToolTip": "DocumentManager\\Models\\Signer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T10:20:05.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Specialize.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\Desktop\\New folder\\DocumentManager\\DocumentManager\\Models\\Specialize.cs",
+              "RelativeDocumentMoniker": "DocumentManager\\Models\\Specialize.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\Desktop\\New folder\\DocumentManager\\DocumentManager\\Models\\Specialize.cs",
+              "RelativeToolTip": "DocumentManager\\Models\\Specialize.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T10:19:42.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\Desktop\\New folder\\DocumentManager\\DocumentManager\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "DocumentManager\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\Desktop\\New folder\\DocumentManager\\DocumentManager\\Models\\Users.cs",
+              "RelativeToolTip": "DocumentManager\\Models\\Users.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T10:19:39.801Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 282,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
