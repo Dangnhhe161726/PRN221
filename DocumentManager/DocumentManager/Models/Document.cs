@@ -8,8 +8,11 @@ namespace DocumentManager.Models
     public partial class Document
     {
         public int Id { get; set; }
+        [MaxLength(100)]
         public string? Symbol { get; set; }//
+        [MaxLength(100)]
         public string? Receiver { get; set; }//
+        [MaxLength(500)]
         public string? Describe { get; set; }//
         public DateTime? DateSign { get; set; }//
         public DateTime? DateTo { get; set; }//

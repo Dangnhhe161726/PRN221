@@ -1,22 +1,110 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Windows 11\\Desktop\\New folder\\DocumentManager\\",
+  "WorkspaceRootPath": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|c:\\users\\windows 11\\desktop\\new folder\\documentmanager\\documentmanager\\models\\sercurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|d:\\learn_c#\\project\\prn221\\documentmanager\\documentmanager\\pages\\documents\\documentview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\pages\\documents\\documentview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|d:\\learn_c#\\project\\prn221\\documentmanager\\documentmanager\\pages\\documents\\createdocument.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\pages\\documents\\createdocument.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|d:\\learn_c#\\project\\prn221\\documentmanager\\documentmanager\\pages\\documents\\createdocument.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\pages\\documents\\createdocument.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|d:\\learn_c#\\project\\prn221\\documentmanager\\documentmanager\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|d:\\learn_c#\\project\\prn221\\documentmanager\\documentmanager\\pages\\documents\\documentview.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\pages\\documents\\documentview.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|d:\\learn_c#\\project\\prn221\\documentmanager\\documentmanager\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|d:\\learn_c#\\project\\prn221\\documentmanager\\documentmanager\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|d:\\learn_c#\\project\\prn221\\documentmanager\\documentmanager\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|d:\\learn_c#\\project\\prn221\\documentmanager\\documentmanager\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|d:\\learn_c#\\project\\prn221\\documentmanager\\documentmanager\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|d:\\learn_c#\\project\\prn221\\documentmanager\\documentmanager\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|d:\\learn_c#\\project\\prn221\\documentmanager\\documentmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|d:\\learn_c#\\project\\prn221\\documentmanager\\documentmanager\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|d:\\learn_c#\\project\\prn221\\documentmanager\\documentmanager\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|d:\\learn_c#\\project\\prn221\\documentmanager\\documentmanager\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|d:\\learn_c#\\project\\prn221\\documentmanager\\documentmanager\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|d:\\learn_c#\\project\\prn221\\documentmanager\\documentmanager\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|d:\\learn_c#\\project\\prn221\\documentmanager\\documentmanager\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|d:\\learn_c#\\project\\prn221\\documentmanager\\documentmanager\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|d:\\learn_c#\\project\\prn221\\documentmanager\\documentmanager\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|d:\\learn_c#\\project\\prn221\\documentmanager\\documentmanager\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|d:\\learn_c#\\project\\prn221\\documentmanager\\documentmanager\\areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|d:\\learn_c#\\project\\prn221\\documentmanager\\documentmanager\\areas\\identity\\pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\areas\\identity\\pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|d:\\learn_c#\\project\\prn221\\documentmanager\\documentmanager\\models\\sercurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\models\\sercurity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|c:\\users\\windows 11\\desktop\\new folder\\documentmanager\\documentmanager\\models\\signer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|d:\\learn_c#\\project\\prn221\\documentmanager\\documentmanager\\models\\signer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\models\\signer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|c:\\users\\windows 11\\desktop\\new folder\\documentmanager\\documentmanager\\models\\specialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|d:\\learn_c#\\project\\prn221\\documentmanager\\documentmanager\\models\\specialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\models\\specialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|c:\\users\\windows 11\\desktop\\new folder\\documentmanager\\documentmanager\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D417378-2ADF-4A1B-89C8-0FB3065190B2}|DocumentManager\\DocumentManager.csproj|solutionrelative:documentmanager\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,7 +113,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 195,
+          "DockedWidth": 444,
           "SelectedChildIndex": 4,
           "Children": [
             {
@@ -47,59 +135,328 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Sercurity.cs",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\Desktop\\New folder\\DocumentManager\\DocumentManager\\Models\\Sercurity.cs",
-              "RelativeDocumentMoniker": "DocumentManager\\Models\\Sercurity.cs",
-              "ToolTip": "C:\\Users\\Windows 11\\Desktop\\New folder\\DocumentManager\\DocumentManager\\Models\\Sercurity.cs",
-              "RelativeToolTip": "DocumentManager\\Models\\Sercurity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAkwAoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T10:20:06.377Z",
+              "Title": "DocumentView.cshtml",
+              "DocumentMoniker": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Pages\\Documents\\DocumentView.cshtml",
+              "RelativeDocumentMoniker": "DocumentManager\\Pages\\Documents\\DocumentView.cshtml",
+              "ToolTip": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Pages\\Documents\\DocumentView.cshtml",
+              "RelativeToolTip": "DocumentManager\\Pages\\Documents\\DocumentView.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T16:42:32.622Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Signer.cs",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\Desktop\\New folder\\DocumentManager\\DocumentManager\\Models\\Signer.cs",
-              "RelativeDocumentMoniker": "DocumentManager\\Models\\Signer.cs",
-              "ToolTip": "C:\\Users\\Windows 11\\Desktop\\New folder\\DocumentManager\\DocumentManager\\Models\\Signer.cs",
-              "RelativeToolTip": "DocumentManager\\Models\\Signer.cs",
+              "DocumentIndex": 6,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "DocumentManager\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "DocumentManager\\Pages\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T16:15:33.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Program.cs",
+              "RelativeDocumentMoniker": "DocumentManager\\Program.cs",
+              "ToolTip": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Program.cs",
+              "RelativeToolTip": "DocumentManager\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T10:20:05.611Z",
+              "WhenOpened": "2024-03-19T16:50:52.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DocumentManager\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DocumentManager\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T13:51:10.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "DocumentManager\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "DocumentManager\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T12:58:37.616Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Specialize.cs",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\Desktop\\New folder\\DocumentManager\\DocumentManager\\Models\\Specialize.cs",
-              "RelativeDocumentMoniker": "DocumentManager\\Models\\Specialize.cs",
-              "ToolTip": "C:\\Users\\Windows 11\\Desktop\\New folder\\DocumentManager\\DocumentManager\\Models\\Specialize.cs",
-              "RelativeToolTip": "DocumentManager\\Models\\Specialize.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAASAAAA",
+              "Title": "CreateDocument.cshtml.cs",
+              "DocumentMoniker": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Pages\\Documents\\CreateDocument.cshtml.cs",
+              "RelativeDocumentMoniker": "DocumentManager\\Pages\\Documents\\CreateDocument.cshtml.cs",
+              "ToolTip": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Pages\\Documents\\CreateDocument.cshtml.cs",
+              "RelativeToolTip": "DocumentManager\\Pages\\Documents\\CreateDocument.cshtml.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwA0AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T10:19:42.668Z",
+              "WhenOpened": "2024-03-20T06:34:54.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateDocument.cshtml",
+              "DocumentMoniker": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Pages\\Documents\\CreateDocument.cshtml",
+              "RelativeDocumentMoniker": "DocumentManager\\Pages\\Documents\\CreateDocument.cshtml",
+              "ToolTip": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Pages\\Documents\\CreateDocument.cshtml",
+              "RelativeToolTip": "DocumentManager\\Pages\\Documents\\CreateDocument.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGIAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-20T06:34:54.499Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "_Sidebar.cshtml",
+              "DocumentMoniker": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Views\\Shared\\_Sidebar.cshtml",
+              "RelativeDocumentMoniker": "DocumentManager\\Views\\Shared\\_Sidebar.cshtml",
+              "ToolTip": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Views\\Shared\\_Sidebar.cshtml",
+              "RelativeToolTip": "DocumentManager\\Views\\Shared\\_Sidebar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-20T07:42:40.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DocumentView.cshtml.cs",
+              "DocumentMoniker": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Pages\\Documents\\DocumentView.cshtml.cs",
+              "RelativeDocumentMoniker": "DocumentManager\\Pages\\Documents\\DocumentView.cshtml.cs",
+              "ToolTip": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Pages\\Documents\\DocumentView.cshtml.cs",
+              "RelativeToolTip": "DocumentManager\\Pages\\Documents\\DocumentView.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T16:42:36.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "DocumentManager\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "DocumentManager\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-20T03:35:21.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "DocumentManager\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "DocumentManager\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T13:51:11.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "DocumentManager\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "DocumentManager\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T14:16:41.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "DocumentManager\\Pages\\Error.cshtml",
+              "ToolTip": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Pages\\Error.cshtml",
+              "RelativeToolTip": "DocumentManager\\Pages\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T14:16:41.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Users.cs",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\Desktop\\New folder\\DocumentManager\\DocumentManager\\Models\\Users.cs",
+              "DocumentMoniker": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Models\\Users.cs",
               "RelativeDocumentMoniker": "DocumentManager\\Models\\Users.cs",
-              "ToolTip": "C:\\Users\\Windows 11\\Desktop\\New folder\\DocumentManager\\DocumentManager\\Models\\Users.cs",
+              "ToolTip": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Models\\Users.cs",
               "RelativeToolTip": "DocumentManager\\Models\\Users.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T10:19:39.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T10:19:39.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "DocumentManager\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Pages\\Index.cshtml",
+              "RelativeToolTip": "DocumentManager\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAEwBAAAAAAAAAAAAAFwBAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T14:16:39.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "DocumentManager\\Pages\\Privacy.cshtml",
+              "ToolTip": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "DocumentManager\\Pages\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T14:16:38.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "DocumentManager\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "DocumentManager\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T14:16:28.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "DocumentManager\\Pages\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "DocumentManager\\Pages\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-19T14:22:33.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "DocumentManager\\Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "DocumentManager\\Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T14:35:04.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "DocumentManager\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "DocumentManager\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T14:16:27.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "DocumentManager\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "DocumentManager\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T14:16:09.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ConfirmEmail.cshtml",
+              "DocumentMoniker": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "RelativeDocumentMoniker": "DocumentManager\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "ToolTip": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "RelativeToolTip": "DocumentManager\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T14:16:01.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "DocumentManager\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "ToolTip": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "DocumentManager\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-19T14:16:19.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Sercurity.cs",
+              "DocumentMoniker": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Models\\Sercurity.cs",
+              "RelativeDocumentMoniker": "DocumentManager\\Models\\Sercurity.cs",
+              "ToolTip": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Models\\Sercurity.cs",
+              "RelativeToolTip": "DocumentManager\\Models\\Sercurity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAkwAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T10:20:06.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Signer.cs",
+              "DocumentMoniker": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Models\\Signer.cs",
+              "RelativeDocumentMoniker": "DocumentManager\\Models\\Signer.cs",
+              "ToolTip": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Models\\Signer.cs",
+              "RelativeToolTip": "DocumentManager\\Models\\Signer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T10:20:05.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Specialize.cs",
+              "DocumentMoniker": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Models\\Specialize.cs",
+              "RelativeDocumentMoniker": "DocumentManager\\Models\\Specialize.cs",
+              "ToolTip": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\Models\\Specialize.cs",
+              "RelativeToolTip": "DocumentManager\\Models\\Specialize.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T10:19:42.668Z"
             }
           ]
         },
         {
-          "DockedWidth": 282,
+          "DockedWidth": 33,
           "SelectedChildIndex": -1,
           "Children": [
             {

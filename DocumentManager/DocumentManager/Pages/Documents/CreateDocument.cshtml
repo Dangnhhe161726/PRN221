@@ -1,0 +1,109 @@
+﻿@page "/document/create"
+@model DocumentManager.Pages.Documents.CreateDocumentModel
+
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <!-- Sidebar -->
+        @await Html.PartialAsync("_Sidebar")
+
+        <!-- Main Content -->
+        <div class="col py-3">
+            <!------------------>
+            <div class="row">
+                <div class="col-md-12">
+                    <form method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="Document.Symbol" class="control-label"></label>
+                            <input asp-for="Document.Symbol" class="form-control" />
+                            <span asp-validation-for="Document.Symbol" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Document.Receiver" class="control-label"></label>
+                            <input asp-for="Document.Receiver" class="form-control" />
+                            <span asp-validation-for="Document.Receiver" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Document.Describe" class="control-label"></label>
+                            <input asp-for="Document.Describe" class="form-control" />
+                            <span asp-validation-for="Document.Describe" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Document.DateSign" class="control-label"></label>
+                            <input asp-for="Document.DateSign" class="form-control" />
+                            <span asp-validation-for="Document.DateSign" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Document.DateTo" class="control-label"></label>
+                            <input asp-for="Document.DateTo" class="form-control" />
+                            <span asp-validation-for="Document.DateTo" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Document.DateOut" class="control-label"></label>
+                            <input asp-for="Document.DateOut" class="form-control" />
+                            <span asp-validation-for="Document.DateOut" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Document.Page" class="control-label"></label>
+                            <input asp-for="Document.Page" class="form-control" />
+                            <span asp-validation-for="Document.Page" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Document.Quantity" class="control-label"></label>
+                            <input asp-for="Document.Quantity" class="form-control" />
+                            <span asp-validation-for="Document.Quantity" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Document.Status" class="control-label"></label>
+                            <input asp-for="Document.Status" class="form-control" />
+                            <span asp-validation-for="Document.Status" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Document.SignerId" class="control-label"></label>
+                            <select asp-for="Document.SignerId" class="form-control" asp-items="ViewBag.SignerId"></select>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Document.SecurityId" class="control-label"></label>
+                            <select asp-for="Document.SecurityId" class="form-control" asp-items="ViewBag.SecurityId"></select>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Document.EmergencyId" class="control-label"></label>
+                            <select asp-for="Document.EmergencyId" class="form-control" asp-items="ViewBag.EmergencyId"></select>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Document.GroupDocumentId" class="control-label"></label>
+                            <select asp-for="Document.GroupDocumentId" class="form-control" asp-items="ViewBag.GroupDocumentId"></select>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Document.NameDocumentId" class="control-label"></label>
+                            <select asp-for="Document.NameDocumentId" class="form-control" asp-items="ViewBag.NameDocumentId"></select>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Document.SpecializedId" class="control-label"></label>
+                            <select asp-for="Document.SpecializedId" class="form-control" asp-items="ViewBag.SpecializedId"></select>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Document.CategoryId" class="control-label"></label>
+                            <select asp-for="Document.CategoryId" class="form-control" asp-items="ViewBag.CategoryId"></select>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Document.Aid" class="control-label"></label>
+                            <select asp-for="Document.Aid" class="form-control" asp-items="ViewBag.Aid"></select>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Document.AgencyIssuesId" class="control-label"></label>
+                            <select asp-for="Document.AgencyIssuesId" class="form-control" asp-items="ViewBag.AgencyIssuesId"></select>
+                        </div>
+                        <div class="form-group" style="margin-top:30px">
+                            <input type="submit" value="Create" class="btn btn-primary" />
+                            <a role="button" asp-page="./DocumentView" class="btn btn-danger">Cancle</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

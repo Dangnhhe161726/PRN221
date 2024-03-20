@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KOnzBe7DZqrduFTkU8oIEUOA55c1Bh0nzdFkvt7T7M2lDNw+T0E7FGLwneoR6vDMC1GxNIzNqk3g37VtkPD42w==",
+  "dgSpecHash": "E5ZOSlZACm45MIWm2soju94TsVgBj8mwriq7qWkZRP9qsYn8GGZSxLUFH1fwU9jnLdKRvM8puyHGfXaomR5T7A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Windows 11\\Desktop\\New folder\\DocumentManager\\DocumentManager\\DocumentManager.csproj",
+  "projectFilePath": "D:\\Learn_C#\\Project\\PRN221\\DocumentManager\\DocumentManager\\DocumentManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Windows 11\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Windows 11\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
