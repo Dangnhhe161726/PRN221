@@ -15,6 +15,11 @@ namespace DocumentManager.Migrations
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
+#pragma warning disable 612, 618
+            modelBuilder
+                .HasAnnotation("ProductVersion", "6.0.28")
+                .HasAnnotation("Relational:MaxIdentifierLength", 128);
+
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
             modelBuilder.Entity("DocumentManager.Models.AgencyIssue", b =>
@@ -95,9 +100,17 @@ namespace DocumentManager.Migrations
                         .HasColumnType("int")
                         .HasColumnName("Group_DocumentId");
 
+                    b.Property<string>("LinkFile")
+                        .HasMaxLength(225)
+                        .HasColumnType("nvarchar(225)");
+
                     b.Property<int?>("NameDocumentId")
                         .HasColumnType("int")
                         .HasColumnName("Name_DocumentId");
+
+                    b.Property<string>("NameFile")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<int?>("Page")
                         .HasColumnType("int");
@@ -408,17 +421,24 @@ namespace DocumentManager.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "3f44d5ba-e7ed-4c4f-b643-460bc3679f15",
-                            ConcurrencyStamp = "00b54b13-43db-470e-aacc-c5821502043f",
+                            Id = "bc9d17ed-ba46-46ca-83b6-ed2a79898b76",
+                            ConcurrencyStamp = "3cec686d-8cdf-4c46-8c53-a3f7d94fefc3",
                             Name = "admin",
                             NormalizedName = "admin"
                         },
                         new
                         {
-                            Id = "f25b2a8f-822d-4407-8592-1dd72b3fc559",
-                            ConcurrencyStamp = "51f50c0e-b0ff-49db-ba25-97ec07069262",
+                            Id = "dc799ade-cba2-4765-b7b3-d30d29dab3e4",
+                            ConcurrencyStamp = "cdffb9b3-75fd-44d7-8fbe-8b399c63a488",
                             Name = "employee",
                             NormalizedName = "employee"
+                        },
+                        new
+                        {
+                            Id = "6e6ce62d-64a4-485e-99af-28f70d31c018",
+                            ConcurrencyStamp = "bc5e0655-d54f-4a76-a473-791af7de1948",
+                            Name = "senior",
+                            NormalizedName = "senior"
                         });
                 });
 
@@ -708,6 +728,7 @@ namespace DocumentManager.Migrations
                 {
                     b.Navigation("Documents");
                 });
+#pragma warning restore 612, 618
         }
     }
 }

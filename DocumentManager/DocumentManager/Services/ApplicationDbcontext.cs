@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using NuGet.Protocol.Plugins;
 using System.Reflection.Emit;
 using System.Security.Principal;
 using System.Text.RegularExpressions;
@@ -28,7 +29,9 @@ namespace DocumentManager.Services
             admin.NormalizedName = "admin";
             var employee = new IdentityRole("employee");
             employee.NormalizedName = "employee";
-            modelBuilder.Entity<IdentityRole>().HasData(admin, employee);
+            var senior = new IdentityRole("senior");
+            senior.NormalizedName = "senior";
+            modelBuilder.Entity<IdentityRole>().HasData(admin, employee, senior);
 
 
             modelBuilder.Entity<AgencyIssue>(entity =>

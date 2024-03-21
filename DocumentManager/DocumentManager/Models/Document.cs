@@ -9,6 +9,10 @@ namespace DocumentManager.Models
     {
         public int Id { get; set; }
         [MaxLength(100)]
+        public string? NameFile { get; set; }//
+        [MaxLength(225)]
+        public string? LinkFile { get; set; }//
+        [MaxLength(100)]
         public string? Symbol { get; set; }//
         [MaxLength(100)]
         public string? Receiver { get; set; }//

@@ -1,0 +1,157 @@
+﻿@page "/document/detail"
+@model DocumentManager.Pages.Documents.DetailModel
+
+<div class="container-fluid">
+	<div class="row flex-nowrap">
+		<!-- Sidebar -->
+		@await Html.PartialAsync("_Sidebar")
+
+		<!-- Main Content -->
+
+		<div class="col py-3">
+			<dl class="row" style="margin-left: 30px">
+				<dt class="col-sm-2">
+					@Html.DisplayNameFor(model => model.Document.Symbol)
+				</dt>
+				<dd class="col-sm-10">
+					@Html.DisplayFor(model => model.Document.Symbol)
+				</dd>
+				<dt class="col-sm-2">
+					@Html.DisplayNameFor(model => model.Document.Receiver)
+				</dt>
+				<dd class="col-sm-10">
+					@Html.DisplayFor(model => model.Document.Receiver)
+				</dd>
+				<dt class="col-sm-2">
+					@Html.DisplayNameFor(model => model.Document.Describe)
+				</dt>
+				<dd class="col-sm-10">
+					@Html.DisplayFor(model => model.Document.Describe)
+				</dd>
+				<dt class="col-sm-2">
+					@Html.DisplayNameFor(model => model.Document.DateSign)
+				</dt>
+				<dd class="col-sm-10">
+					@Html.DisplayFor(model => model.Document.DateSign)
+				</dd>
+				<dt class="col-sm-2">
+					@Html.DisplayNameFor(model => model.Document.DateTo)
+				</dt>
+				<dd class="col-sm-10">
+					@Html.DisplayFor(model => model.Document.DateTo)
+				</dd>
+				<dt class="col-sm-2">
+					@Html.DisplayNameFor(model => model.Document.DateOut)
+				</dt>
+				<dd class="col-sm-10">
+					@Html.DisplayFor(model => model.Document.DateOut)
+				</dd>
+				<dt class="col-sm-2">
+					@Html.DisplayNameFor(model => model.Document.Page)
+				</dt>
+				<dd class="col-sm-10">
+					@Html.DisplayFor(model => model.Document.Page)
+				</dd>
+				<dt class="col-sm-2">
+					@Html.DisplayNameFor(model => model.Document.Quantity)
+				</dt>
+				<dd class="col-sm-10">
+					@Html.DisplayFor(model => model.Document.Quantity)
+				</dd>
+				<dt class="col-sm-2">
+					@Html.DisplayNameFor(model => model.Document.Status)
+				</dt>
+				<dd class="col-sm-10">
+					@Html.DisplayFor(model => model.Document.Status)
+				</dd>
+				<dt class="col-sm-2">
+					@Html.DisplayNameFor(model => model.Document.AgencyIssues)
+				</dt>
+				<dd class="col-sm-10">
+					@Html.DisplayFor(model => model.Document.AgencyIssues.Name)
+				</dd>
+				<dt class="col-sm-2">
+					@Html.DisplayNameFor(model => model.Document.Category)
+				</dt>
+				<dd class="col-sm-10">
+					@Html.DisplayFor(model => model.Document.Category.Name)
+				</dd>
+				<dt class="col-sm-2">
+					@Html.DisplayNameFor(model => model.Document.Emergency)
+				</dt>
+				<dd class="col-sm-10">
+					@Html.DisplayFor(model => model.Document.Emergency.Name)
+				</dd>
+				<dt class="col-sm-2">
+					@Html.DisplayNameFor(model => model.Document.GroupDocument)
+				</dt>
+				<dd class="col-sm-10">
+					@Html.DisplayFor(model => model.Document.GroupDocument.Name)
+				</dd>
+				<dt class="col-sm-2">
+					@Html.DisplayNameFor(model => model.Document.NameDocument)
+				</dt>
+				<dd class="col-sm-10">
+					@Html.DisplayFor(model => model.Document.NameDocument.Name)
+				</dd>
+				<dt class="col-sm-2">
+					@Html.DisplayNameFor(model => model.Document.Security)
+				</dt>
+				<dd class="col-sm-10">
+					@Html.DisplayFor(model => model.Document.Security.Name)
+				</dd>
+				<dt class="col-sm-2">
+					@Html.DisplayNameFor(model => model.Document.Signer)
+				</dt>
+				<dd class="col-sm-10">
+					@Html.DisplayFor(model => model.Document.Signer.Name)
+				</dd>
+				<dt class="col-sm-2">
+					@Html.DisplayNameFor(model => model.Document.Specialized)
+				</dt>
+				<dd class="col-sm-10">
+					@Html.DisplayFor(model => model.Document.Specialized.Name)
+				</dd>
+				<dt class="col-sm-2">
+					@Html.DisplayNameFor(model => model.Document.Users)
+				</dt>
+				<dd class="col-sm-10">
+					@Html.DisplayFor(model => model.Document.Users.LastName)
+				</dd>
+				<dt class="col-sm-2">
+					Name File:
+				</dt>
+				<dd class="col-sm-10">
+					@* <a href="@Model.Document.LinkFile" class="btn btn-danger" target="_blank">View File</a> *@
+					<a class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">View File</a>
+				</dd>
+				<div style="margin-top: 30px">
+					<a asp-page="./Edit" asp-route-id="@Model.Document?.Id" class="btn btn-success" role="button">Edit</a>
+					<a class="btn btn-danger" asp-page="./DocumentView" role="button" style="margin-left: 30px">Back to List</a>
+				</div>
+			</dl>
+		</div>
+
+	</div>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+	<div class="modal-content">
+	  <div class="modal-header">
+		<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+		<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	  </div>
+	  <div class="modal-body">
+		<embed src="@Model.Document.LinkFile" width="460" height="400"/>
+	  </div>
+	  <div class="modal-footer">
+		<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+	  </div>
+	</div>
+  </div>
+</div>
+
+
+
+

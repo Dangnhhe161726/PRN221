@@ -3,58 +3,75 @@
 @{
 }
 <div class="container-fluid">
-    <div class="row flex-nowrap">
-        <!-- Sidebar -->
-        @await Html.PartialAsync("_Sidebar")
+	<div class="row flex-nowrap">
+		<!-- Sidebar -->
+		@await Html.PartialAsync("_Sidebar")
 
-        <!-- Main Content -->
-        <div class="col py-3">
-            
-            <!--Button feature-->
-            <div class="row mb-5">
-                <div class="col">
-                    <a class="btn btn-primary" asp-page="./CreateDocument">New Document</a>
-                </div>
+		<!-- Main Content -->
+		<div class="col py-3">
 
-            </div>
-            <!------------------>
+			<!--Button feature-->
+			<div class="row mb-5">
+				<div class="col">
+					<a class="btn btn-primary" asp-page="./CreateDocument">New Document</a>
+				</div>
 
-            <div class="table-responsive">
-                <table class="table table-hover">
-                    <thead class="thead-dark">
-                        <tr>
-                            <th scope="col"></th>
-                            <th scope="col">Describe</th>
-                            <th scope="col">Date Sign</th>
-                            <th scope="col">Date To</th>
-                            <th scope="col">Date Out</th>
-                            <th scope="col">Status</th>
-                            <th scope="col">Action</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @foreach (var document in Model.documents)
-                        {
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>@document.Describe</td>
-                                <td>@document.DateSign</td>
-                                <td>@document.DateTo</td>
-                                <td>@document.DateOut</td>
-                                <td>@document.Status</td>
-                                <td>
-                                    <a class="btn btn-info" href="#"><i class="fas fa-eye"></i></a>
-                                    <a class="btn btn-save " href="#"><i class="fas fa-pen"></i></a>
-                                    <a class="btn btn-danger" href="#"><i class="fas fa-trash-can"></i></a>
-                                </td>
-                            </tr>
-                        }
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
+			</div>
+			<!------------------>
+
+			<div class="table-responsive">
+				<table class="table table-hover">
+					<thead class="thead-dark">
+						<tr>
+							<th scope="col"></th>
+							<th scope="col">Describe</th>
+							<th scope="col">Date Sign</th>
+							<th scope="col">Date To</th>
+							<th scope="col">Date Out</th>
+							<th scope="col">Status</th>
+							<th scope="col">Action</th>
+						</tr>
+					</thead>
+					<tbody>
+						@foreach (var document in Model.documents)
+						{
+								<tr>
+									<th scope="row">1</th>
+									<td>@document.Describe</td>
+									<td>@document.DateSign</td>
+									<td>@document.DateTo</td>
+									<td>@document.DateOut</td>
+									<td>@document.Status</td>
+									<td>
+										<a class="btn btn-info" asp-page="./Details" asp-route-id="@document?.Id"><i class="fas fa-eye"></i></a>
+										<a class="btn btn-save " asp-page="./Edit" asp-route-id="@document?.Id"><i class="fas fa-pen"></i></a>
+										<a class="btn btn-danger" asp-page="./Delete" asp-route-id="@document?.Id"><i class="fas fa-trash"></i></a>
+									</td>
+								</tr>
+						}
+					</tbody>
+				</table>
+			</div>
+
+			<div class="row mb-5">
+				<!--Paging-->
+				<nav aria-label="Page navigation">
+					<ul class="pagination">
+						@for (var i = 1; i <= Model.TotalPages; i++)
+						{
+							<li class="page-item @(i == Model.CurrentPage ? "active" : "")">
+								<a class="page-link" href="/document/list?pageIndex=@i">@i</a>
+							</li>
+						}
+					</ul>
+				</nav>
+				<!------------------>
+			</div>
+		</div>
+
+
+	</div>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+@* <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> *@
