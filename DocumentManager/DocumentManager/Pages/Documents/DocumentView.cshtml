@@ -14,6 +14,7 @@
 			<div class="row mb-5">
 				<div class="col">
 					<a class="btn btn-primary" asp-page="./CreateDocument">New Document</a>
+					<button class="btn btn-success export-button">Export Excel</button>
 				</div>
 
 			</div>
@@ -23,7 +24,7 @@
 				<table class="table table-hover">
 					<thead class="thead-dark">
 						<tr>
-							<th scope="col"></th>
+						@*	<th scope="col"></th>*@
 							<th scope="col">Describe</th>
 							<th scope="col">Date Sign</th>
 							<th scope="col">Date To</th>
@@ -36,11 +37,11 @@
 						@foreach (var document in Model.documents)
 						{
 								<tr>
-									<th scope="row">1</th>
+								@*	<th scope="row">1</th>*@
 									<td>@document.Describe</td>
-									<td>@document.DateSign</td>
-									<td>@document.DateTo</td>
-									<td>@document.DateOut</td>
+								<td>@document.DateSign?.ToString("dd-mm-yyyy")</td>
+								<td>@document.DateTo?.ToString("dd-mm-yyyy")</td>
+								<td>@document.DateOut?.ToString("dd-mm-yyyy")</td>
 									<td>@document.Status</td>
 									<td>
 										<a class="btn btn-info" asp-page="./Details" asp-route-id="@document?.Id"><i class="fas fa-eye"></i></a>
@@ -75,3 +76,40 @@
 
 @* <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> *@
+@section Scripts {
+	<script>
+		$(document).ready(function () {
+			$('.export-button').click(function () {
+				var headers = [];
+				var data = [];
+				$('table th').each(function () {
+					headers.push($(this).text().trim());
+				});
+				$('table tbody tr').each(function () {
+					var row = [];
+					$(this).find('td').each(function () {
+						var cellData = $(this).text().trim();
+						// Check if the cellData is a valid date string
+						if (!isNaN(Date.parse(cellData))) {
+							// Format the date as YYYY-MM-DD, which is a format Excel recognizes
+							var date = new Date(cellData);
+							cellData = date.toLocaleDateString('en-US'); // Force date format to MM/DD/YYYY
+						}
+						row.push(cellData);
+					});
+					data.push(row);
+				});
+				var csvContent = "data:text/csv;charset=utf-8,"
+					+ headers.join(",") + "\n"
+					+ data.map(e => e.join(",")).join("\n");
+				var encodedUri = encodeURI(csvContent);
+				var link = document.createElement("a");
+				link.setAttribute("href", encodedUri);
+				link.setAttribute("download", "document_data.csv");
+				document.body.appendChild(link);
+				link.click();
+			});
+		});
+	</script>
+}
+s

@@ -1,0 +1,55 @@
+﻿@page "/Sercurity/Edit"
+@model DocumentManager.Pages.Sercurities.EditModel
+
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <!-- Sidebar -->
+        @await Html.PartialAsync("_Sidebar")
+        <div class="col py-3">
+
+            <!--Button feature-->
+            <div class="row mb-5">
+                <div class="col">
+                    <a class="btn btn-primary" asp-page="./Create">New Sercurity</a>
+                </div>
+
+            </div>
+            <!------------------>
+
+            <div class="table-responsive">
+                <!-- Main Content -->
+                <div class="col-md-7">
+                    <!-- Adjusted width to col-md-7 -->
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Sercurity Details</h5>
+                            <dl class="row">
+                                <form method="post">
+                                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                    <input type="hidden" asp-for="Sercurity.Id" />
+                                    <div class="form-group">
+                                        <label asp-for="Sercurity.Name" class="control-label"></label>
+                                        <input asp-for="Sercurity.Name" class="form-control" />
+                                        <span asp-validation-for="Sercurity.Name" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="Sercurity.Level" class="control-label"></label>
+                                        <input asp-for="Sercurity.Level" class="form-control" />
+                                        <span asp-validation-for="Sercurity.Level" class="text-danger"></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="submit" value="Save" class="btn btn-primary" />
+                                        <a asp-page="./Index" class="btn btn-secondary">Back to List</a>
+                                    </div>
+                                </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

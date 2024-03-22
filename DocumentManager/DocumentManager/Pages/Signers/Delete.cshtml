@@ -1,0 +1,59 @@
+﻿@page "/Signer/Delete"
+@model DocumentManager.Pages.Signers.DeleteModel
+
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <!-- Sidebar -->
+        @await Html.PartialAsync("_Sidebar")
+        <div class="col py-3">
+
+            <!--Button feature-->
+            <div class="row mb-5">
+                <div class="col">
+                    <h3>Are you sure you want to delete this?</h3>
+                </div>
+
+            </div>
+            <!------------------>
+
+            <div class="table-responsive">
+                <!-- Main Content -->
+                <div class="col-md-7">
+                    <!-- Adjusted width to col-md-7 -->
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Signer Details</h5>
+                            <dl class="row">
+                                <form method="post">
+                                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                    <input type="hidden" asp-for="Signer.Id" />
+                                    <div class="form-group">
+                                        <label asp-for="Signer.Name" class="control-label"></label>
+                                        <input asp-for="Signer.Name" class="form-control" readonly />
+                                        <span asp-validation-for="Signer.Name" class="text-danger"></span>
+                                    </div>
+
+
+                                    <div class="form-group">
+                                        <label  class="control-label"> Postition Name</label>
+                                        <input asp-for="Signer.PidNavigation.Name" class="form-control" readonly/>
+                                        <span asp-validation-for="Signer.PidNavigation.Name" class="text-danger"></span>
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <input type="hidden" asp-for="Signer.Id" />
+                                        <input type="submit" value="Delete" class="btn btn-danger" /> |
+
+
+                                        <a asp-page="./Index" class="btn btn-secondary">Back to List</a>
+                                    </div>
+                                </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

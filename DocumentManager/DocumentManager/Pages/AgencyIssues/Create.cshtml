@@ -1,0 +1,36 @@
+﻿@page "/AgencyIssue/Create"
+@model DocumentManager.Pages.AgencyIssues.CreateModel
+
+<div class="container-fluid">
+<div class="row flex-nowrap">
+    <!-- Sidebar -->
+    @await Html.PartialAsync("_Sidebar")
+
+    <!-- Main Content -->
+    <div class="col py-3">
+        <!------------------>
+        <div class="row">
+            <div class="col-md-12">
+                <form method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="AgencyIssue.Name" class="control-label"></label>
+                        <input asp-for="AgencyIssue.Name" class="form-control" />
+                        <span asp-validation-for="AgencyIssue.Name" class="text-danger"></span>
+                    </div>
+                   
+
+                    <div class="form-group" style="margin-top:30px">
+                        <input type="submit" value="Create" class="btn btn-primary" />
+                        <a role="button" asp-page="./index" class="btn btn-danger">Back</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
