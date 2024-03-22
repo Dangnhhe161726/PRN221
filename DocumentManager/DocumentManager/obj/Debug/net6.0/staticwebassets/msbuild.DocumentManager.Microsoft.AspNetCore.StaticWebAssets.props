@@ -16,6 +16,54 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\site.css))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\05a03918-efa1-4add-b3d7-b50c5062741d_exe101-nhom-7-mix-group-assignment-1.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>DocumentManager</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DocumentManager</BasePath>
+      <RelativePath>data/05a03918-efa1-4add-b3d7-b50c5062741d_exe101-nhom-7-mix-group-assignment-1.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\05a03918-efa1-4add-b3d7-b50c5062741d_exe101-nhom-7-mix-group-assignment-1.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\09b21727-abca-4a46-ba6a-8a255ee30824_exe101-nhom-7-mix-group-assignment-1.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>DocumentManager</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DocumentManager</BasePath>
+      <RelativePath>data/09b21727-abca-4a46-ba6a-8a255ee30824_exe101-nhom-7-mix-group-assignment-1.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\09b21727-abca-4a46-ba6a-8a255ee30824_exe101-nhom-7-mix-group-assignment-1.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\1461be24-0d1b-4f8f-820e-d996d15bd4ea_exe101-nhom-7-mix-group-assignment-1.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>DocumentManager</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DocumentManager</BasePath>
+      <RelativePath>data/1461be24-0d1b-4f8f-820e-d996d15bd4ea_exe101-nhom-7-mix-group-assignment-1.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\1461be24-0d1b-4f8f-820e-d996d15bd4ea_exe101-nhom-7-mix-group-assignment-1.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\3265216d-ecac-4dfd-96a6-fb289644a5fe_EXE101-Check-point-4-Group-19-Report.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>DocumentManager</SourceId>
@@ -32,6 +80,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\3265216d-ecac-4dfd-96a6-fb289644a5fe_EXE101-Check-point-4-Group-19-Report.pdf))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\40ef0957-0dc0-48d8-9ab7-d0967cbf5269_exe101-nhom-7-mix-group-assignment-1.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>DocumentManager</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DocumentManager</BasePath>
+      <RelativePath>data/40ef0957-0dc0-48d8-9ab7-d0967cbf5269_exe101-nhom-7-mix-group-assignment-1.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\40ef0957-0dc0-48d8-9ab7-d0967cbf5269_exe101-nhom-7-mix-group-assignment-1.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\49762296-0e94-428f-a676-6c6b9412c775_EXE101-Check-point-4-Group-19-Report.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>DocumentManager</SourceId>
@@ -47,6 +111,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\49762296-0e94-428f-a676-6c6b9412c775_EXE101-Check-point-4-Group-19-Report.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\4e7b4f09-2e76-4c4b-a105-8e841b8fa75f_exe101-nhom-7-mix-group-assignment-1.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>DocumentManager</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DocumentManager</BasePath>
+      <RelativePath>data/4e7b4f09-2e76-4c4b-a105-8e841b8fa75f_exe101-nhom-7-mix-group-assignment-1.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\4e7b4f09-2e76-4c4b-a105-8e841b8fa75f_exe101-nhom-7-mix-group-assignment-1.pdf))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\5a33e495-19f6-48d0-8507-c60a1bf768a8_Project_SWD392_Group5.pdf))">
       <SourceType>Package</SourceType>
@@ -112,6 +192,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\7e3d4c97-557e-4258-8472-04e98a402bb7_Project_SWD392_Group5.pdf))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\978ae3fc-ef50-4ebb-af70-3f392765b762_exe101-nhom-7-mix-group-assignment-1.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>DocumentManager</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DocumentManager</BasePath>
+      <RelativePath>data/978ae3fc-ef50-4ebb-af70-3f392765b762_exe101-nhom-7-mix-group-assignment-1.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\978ae3fc-ef50-4ebb-af70-3f392765b762_exe101-nhom-7-mix-group-assignment-1.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\a43a4e1c-385b-4fa1-8c53-27df68798b56_G1-OSS_SRS_Document (4).docx))">
       <SourceType>Package</SourceType>
       <SourceId>DocumentManager</SourceId>
@@ -127,6 +223,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\a43a4e1c-385b-4fa1-8c53-27df68798b56_G1-OSS_SRS_Document (4).docx))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\a5bcf01b-5289-44a3-9d81-620fdc87a604_exe101-nhom-7-mix-group-assignment-1.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>DocumentManager</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DocumentManager</BasePath>
+      <RelativePath>data/a5bcf01b-5289-44a3-9d81-620fdc87a604_exe101-nhom-7-mix-group-assignment-1.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\a5bcf01b-5289-44a3-9d81-620fdc87a604_exe101-nhom-7-mix-group-assignment-1.pdf))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\a9865952-e489-4c31-90a8-bf1beaa44253_Swimlane_SWD392.pdf))">
       <SourceType>Package</SourceType>
@@ -208,6 +320,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\d8ed67d9-a43f-4a54-9e39-54167a0e18b3_Project_SWD392_Group5.pdf))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\e39559ce-e29f-4e7b-a4d5-aff2439da7ec_exe101-nhom-7-mix-group-assignment-1.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>DocumentManager</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DocumentManager</BasePath>
+      <RelativePath>data/e39559ce-e29f-4e7b-a4d5-aff2439da7ec_exe101-nhom-7-mix-group-assignment-1.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\e39559ce-e29f-4e7b-a4d5-aff2439da7ec_exe101-nhom-7-mix-group-assignment-1.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\f2d0e372-c067-43c3-bc63-0bf06fc44d6e_EXE101-Check-point-4-Group-19-Report.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>DocumentManager</SourceId>
@@ -223,6 +351,38 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\f2d0e372-c067-43c3-bc63-0bf06fc44d6e_EXE101-Check-point-4-Group-19-Report.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\f559e5e5-a4f9-49cf-8689-77458e2ff29c_exe101-nhom-7-mix-group-assignment-1.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>DocumentManager</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DocumentManager</BasePath>
+      <RelativePath>data/f559e5e5-a4f9-49cf-8689-77458e2ff29c_exe101-nhom-7-mix-group-assignment-1.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\f559e5e5-a4f9-49cf-8689-77458e2ff29c_exe101-nhom-7-mix-group-assignment-1.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\fb7c189c-2505-4a44-b3ca-7ec2dc172b48_exe101-nhom-7-mix-group-assignment-1.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>DocumentManager</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DocumentManager</BasePath>
+      <RelativePath>data/fb7c189c-2505-4a44-b3ca-7ec2dc172b48_exe101-nhom-7-mix-group-assignment-1.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\fb7c189c-2505-4a44-b3ca-7ec2dc172b48_exe101-nhom-7-mix-group-assignment-1.pdf))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\ff07a907-61c5-45f1-b95b-bf103d09ac99_EXE101-Check-point-4-Group-19-Report.pdf))">
       <SourceType>Package</SourceType>
