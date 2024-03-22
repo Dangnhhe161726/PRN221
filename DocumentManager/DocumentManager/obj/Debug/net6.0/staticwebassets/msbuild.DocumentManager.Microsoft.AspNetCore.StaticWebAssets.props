@@ -96,6 +96,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\7531a78c-af91-4641-9548-76588c0bbaa2_Project_SWD392_Group5.pdf))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\7e3d4c97-557e-4258-8472-04e98a402bb7_Project_SWD392_Group5.pdf))">
+      <SourceType>Package</SourceType>
+      <SourceId>DocumentManager</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DocumentManager</BasePath>
+      <RelativePath>data/7e3d4c97-557e-4258-8472-04e98a402bb7_Project_SWD392_Group5.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\7e3d4c97-557e-4258-8472-04e98a402bb7_Project_SWD392_Group5.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\data\a43a4e1c-385b-4fa1-8c53-27df68798b56_G1-OSS_SRS_Document (4).docx))">
       <SourceType>Package</SourceType>
       <SourceId>DocumentManager</SourceId>

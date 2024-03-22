@@ -43,7 +43,8 @@ namespace DocumentManager.Pages.Documents
         [BindProperty(SupportsGet = true)]
         public IFormFile fileDocument { get; set; }
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
-
+        [BindProperty(SupportsGet = true)]
+        public String error {  get; set; }
 
         public async Task<IActionResult> OnPostAsync()
         {
@@ -51,13 +52,28 @@ namespace DocumentManager.Pages.Documents
             {
                 return Page();
             }
-            if(fileDocument != null)
+          if(Document.DateSign > Document.DateTo)
+            {
+                error = "Date sign not more than date to";
+                return Page();
+            }
+            if (Document.DateSign > Document.DateOut)
+            {
+                error = "Date sign not more than date out";
+                return Page();
+            }
+            if (Document.DateTo > Document.DateOut)
+            {
+                error = "Date to not more than date out";
+                return Page();
+            }
+            if (fileDocument != null)
             {
                 string folder = "data/";
                 Document.NameFile = fileDocument.FileName;
                 Document.LinkFile = await UploadFile(folder, fileDocument);
             }
-
+            Document.Status = true;
             _context.Documents.Add(Document);
             await _context.SaveChangesAsync();
 

@@ -34,6 +34,7 @@ namespace DocumentManager.Models
         [MaxLength(450)]
         public string? Aid { get; set; }//
         public int? AgencyIssuesId { get; set; }//
+        public bool? confirm { get; set; }
 
         public virtual AgencyIssue? AgencyIssues { get; set; }
         public virtual Category? Category { get; set; }

@@ -186,10 +186,19 @@ namespace DocumentManager.Services
 
                 entity.Property(e => e.Pid).HasColumnName("pid");
 
+                entity.Property(e => e.userId)
+                               .HasColumnType("nvarchar(450)")
+                               .HasMaxLength(450);
+
                 entity.HasOne(d => d.PidNavigation)
                     .WithMany(p => p.Signers)
                     .HasForeignKey(d => d.Pid)
                     .HasConstraintName("FK_Signer_Position");
+
+                entity.HasOne(d => d.Users)
+                    .WithMany(p => p.Signers)
+                    .HasForeignKey(d => d.userId)
+                    .HasConstraintName("FK_Signer_User");
             });
 
             modelBuilder.Entity<Specialize>(entity =>

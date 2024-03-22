@@ -9,293 +9,295 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DocumentManager
 build_property.RootNamespace = DocumentManager
-build_property.ProjectDir = C:\Users\ADMIN\Desktop\New folder (5)\PRN221\DocumentManager\DocumentManager\
+build_property.ProjectDir = C:\Users\Windows 11\Desktop\PRN221\DocumentManager\DocumentManager\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ADMIN\Desktop\New folder (5)\PRN221\DocumentManager\DocumentManager
+build_property.MSBuildProjectDirectory = C:\Users\Windows 11\Desktop\PRN221\DocumentManager\DocumentManager
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/Account/Manage/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/AgencyIssues/Create.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/AgencyIssues/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdlbmN5SXNzdWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/AgencyIssues/Delete.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/AgencyIssues/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdlbmN5SXNzdWVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/AgencyIssues/Details.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/AgencyIssues/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdlbmN5SXNzdWVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/AgencyIssues/Edit.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/AgencyIssues/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdlbmN5SXNzdWVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/AgencyIssues/Index.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/AgencyIssues/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdlbmN5SXNzdWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Categories/Create.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Categories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Categories/Delete.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Categories/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Categories/Details.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Categories/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Categories/Edit.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Categories/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Categories/Index.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Categories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Documents/CreateDocument.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Documents/CreateDocument.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9jdW1lbnRzXENyZWF0ZURvY3VtZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Documents/Delete.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Documents/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9jdW1lbnRzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Documents/Details.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Documents/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9jdW1lbnRzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Documents/DocumentView.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Documents/DocumentView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9jdW1lbnRzXERvY3VtZW50Vmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Documents/Edit.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Documents/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9jdW1lbnRzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Emergencies/Create.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Emergencies/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1lcmdlbmNpZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Emergencies/Delete.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Emergencies/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1lcmdlbmNpZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Emergencies/Details.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Emergencies/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1lcmdlbmNpZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Emergencies/Edit.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Emergencies/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1lcmdlbmNpZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Emergencies/Index.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Emergencies/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1lcmdlbmNpZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Error.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/GroupDocuments/Create.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/GroupDocuments/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3JvdXBEb2N1bWVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/GroupDocuments/Delete.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/GroupDocuments/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3JvdXBEb2N1bWVudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/GroupDocuments/Details.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/GroupDocuments/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3JvdXBEb2N1bWVudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/GroupDocuments/Edit.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/GroupDocuments/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3JvdXBEb2N1bWVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/GroupDocuments/Index.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/GroupDocuments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3JvdXBEb2N1bWVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Index.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/NameDocuments/Create.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/NameDocuments/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmFtZURvY3VtZW50c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/NameDocuments/Delete.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/NameDocuments/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmFtZURvY3VtZW50c1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/NameDocuments/Details.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/NameDocuments/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmFtZURvY3VtZW50c1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/NameDocuments/Edit.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/NameDocuments/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmFtZURvY3VtZW50c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/NameDocuments/Index.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/NameDocuments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmFtZURvY3VtZW50c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Positions/Create.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Positions/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zaXRpb25zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Positions/Delete.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Positions/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zaXRpb25zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Positions/Details.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Positions/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zaXRpb25zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Positions/Edit.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Positions/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zaXRpb25zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Positions/Index.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Positions/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zaXRpb25zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Privacy.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Sercurities/Create.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Sercurities/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VyY3VyaXRpZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Sercurities/Delete.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Sercurities/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VyY3VyaXRpZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Sercurities/Details.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Sercurities/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VyY3VyaXRpZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Sercurities/Edit.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Sercurities/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VyY3VyaXRpZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Sercurities/Index.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Sercurities/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VyY3VyaXRpZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Shared/_LoginPartial.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Signers/Create.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Signers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbmVyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Signers/Delete.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Signers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbmVyc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Signers/Details.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Signers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbmVyc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Signers/Edit.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Signers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbmVyc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Signers/Index.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Signers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbmVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/_ViewImports.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/_ViewStart.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Views/Shared/_Sidebar.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Views/Shared/_Sidebar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWRlYmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Desktop/New folder (5)/PRN221/DocumentManager/DocumentManager/Pages/Shared/_Layout.cshtml]
+[C:/Users/Windows 11/Desktop/PRN221/DocumentManager/DocumentManager/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-sxo55cuu53

@@ -141,6 +141,9 @@ namespace DocumentManager.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
+                    b.Property<bool?>("confirm")
+                        .HasColumnType("bit");
+
                     b.HasKey("Id");
 
                     b.HasIndex("AgencyIssuesId");
@@ -288,9 +291,15 @@ namespace DocumentManager.Migrations
                         .HasColumnType("int")
                         .HasColumnName("pid");
 
+                    b.Property<string>("userId")
+                        .HasMaxLength(450)
+                        .HasColumnType("nvarchar(450)");
+
                     b.HasKey("Id");
 
                     b.HasIndex("Pid");
+
+                    b.HasIndex("userId");
 
                     b.ToTable("Signers");
                 });
@@ -421,22 +430,22 @@ namespace DocumentManager.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "bc9d17ed-ba46-46ca-83b6-ed2a79898b76",
-                            ConcurrencyStamp = "3cec686d-8cdf-4c46-8c53-a3f7d94fefc3",
+                            Id = "d4c35a94-7d50-462d-be5c-b20ee6cfd5ea",
+                            ConcurrencyStamp = "b73390b2-fd05-49a2-840b-28aeecb6e21a",
                             Name = "admin",
                             NormalizedName = "admin"
                         },
                         new
                         {
-                            Id = "dc799ade-cba2-4765-b7b3-d30d29dab3e4",
-                            ConcurrencyStamp = "cdffb9b3-75fd-44d7-8fbe-8b399c63a488",
+                            Id = "fe681071-745d-4b94-9842-da706a69115d",
+                            ConcurrencyStamp = "7f22abf5-1739-41f4-943e-6bdd92fea296",
                             Name = "employee",
                             NormalizedName = "employee"
                         },
                         new
                         {
-                            Id = "6e6ce62d-64a4-485e-99af-28f70d31c018",
-                            ConcurrencyStamp = "bc5e0655-d54f-4a76-a473-791af7de1948",
+                            Id = "baac8db5-58a9-4692-adfb-cafe46084f80",
+                            ConcurrencyStamp = "aa970356-7bcb-48f5-8e11-df6aa26e2b58",
                             Name = "senior",
                             NormalizedName = "senior"
                         });
@@ -625,7 +634,14 @@ namespace DocumentManager.Migrations
                         .HasForeignKey("Pid")
                         .HasConstraintName("FK_Signer_Position");
 
+                    b.HasOne("DocumentManager.Models.Users", "Users")
+                        .WithMany("Signers")
+                        .HasForeignKey("userId")
+                        .HasConstraintName("FK_Signer_User");
+
                     b.Navigation("PidNavigation");
+
+                    b.Navigation("Users");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -727,6 +743,8 @@ namespace DocumentManager.Migrations
             modelBuilder.Entity("DocumentManager.Models.Users", b =>
                 {
                     b.Navigation("Documents");
+
+                    b.Navigation("Signers");
                 });
 #pragma warning restore 612, 618
         }
