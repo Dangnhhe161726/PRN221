@@ -1,0 +1,49 @@
+﻿@page "/Specialize/Details"
+@model DocumentManager.Pages.Specializes.DetailsModel
+
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <!-- Sidebar -->
+        @await Html.PartialAsync("_Sidebar")
+        <div class="col py-3">
+
+            <!--Button feature-->
+            <div class="row mb-5">
+                <div class="col">
+                    <h5 class="card-title">Specialize Details</h5>
+
+                </div>
+
+            </div>
+            <!------------------>
+
+            <div class="table-responsive">
+                <!-- Main Content -->
+                <div class="col-md-7">
+                    <!-- Adjusted width to col-md-7 -->
+                    <div class="card">
+                        <div class="card-body">
+
+                            <dl class="row">
+                                <div class="col-sm-6">
+                                    <dt class="text-muted">Specialize id</dt>
+                                    <dd>@Html.DisplayFor(model => model.Specialize.Id)</dd>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <dt class="text-muted">Specialize Name</dt>
+                                    <dd>@Html.DisplayFor(model => model.Specialize.Name)</dd>
+                                </div>
+
+
+                        </div>
+                        <div class="card-footer">
+                            <a asp-page="./Edit" asp-route-id="@Model.Specialize?.Id" class="btn btn-primary">Edit</a>
+                            <a asp-page="./Index" class="btn btn-secondary">Back to List</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
