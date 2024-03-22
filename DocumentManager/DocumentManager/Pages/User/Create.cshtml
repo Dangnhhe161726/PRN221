@@ -1,0 +1,99 @@
+﻿@page "/users/create"
+@model DocumentManager.Pages.User.CreateModel
+@{
+	ViewData["Title"] = "Create New User";
+}
+
+
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <!-- Sidebar -->
+        @await Html.PartialAsync("_Sidebar")
+
+        <!-- Main Content -->
+        <div class="col py-3">
+            <!------------------>
+			<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+			<form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+				@* Frist Name *@
+				<div class="row mb-3">
+					<label class="col-sm-4 col-form-label">Frist Name</label>
+					<div class="col-sm-8">
+						<input asp-for="Input.FristName" class="form-control" />
+						<span asp-validation-for="Input.FristName" class="text-danger"></span>
+					</div>
+				</div>
+				@* Last Name *@
+				<div class="row mb-3">
+					<label class="col-sm-4 col-form-label">Last Name</label>
+					<div class="col-sm-8">
+						<input asp-for="Input.LastName" class="form-control" />
+						<span asp-validation-for="Input.LastName" class="text-danger"></span>
+					</div>
+				</div>
+				@* Phone Number *@
+				<div class="row mb-3">
+					<label class="col-sm-4 col-form-label">Phone Number</label>
+					<div class="col-sm-8">
+						<input asp-for="Input.PhoneNumber" class="form-control" />
+						<span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+					</div>
+				</div>
+				@* Email *@
+				<div class="row mb-3">
+					<label class="col-sm-4 col-form-label">Email</label>
+					<div class="col-sm-8">
+						<input asp-for="Input.Email" class="form-control" />
+						<span asp-validation-for="Input.Email" class="text-danger"></span>
+					</div>
+				</div>
+				@* Address *@
+				<div class="row mb-3">
+					<label class="col-sm-4 col-form-label">Address</label>
+					<div class="col-sm-8">
+						<input asp-for="Input.Address" class="form-control" />
+						<span asp-validation-for="Input.Address" class="text-danger"></span>
+					</div>
+				</div>
+				@* Password *@
+				<div class="row mb-3">
+					<label class="col-sm-4 col-form-label">Password</label>
+					<div class="col-sm-8">
+						<input asp-for="Input.Password" class="form-control" />
+						<span asp-validation-for="Input.Password" class="text-danger"></span>
+					</div>
+				</div>
+				@* Confirm Pasword *@
+				<div class="row mb-3">
+					<label class="col-sm-4 col-form-label">Confirm Password</label>
+					<div class="col-sm-8">
+						<input asp-for="Input.ConfirmPassword" class="form-control" />
+						<span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+					</div>
+				</div>
+				@* Role *@
+				<div class="row mb-3">
+					<label class="col-sm-4 col-form-label">Role</label>
+					<div class="col-sm-8">
+						<select asp-for="roleName">
+							@foreach(var r in Model.Roles)
+							{
+								<option value="@r.Name">
+									@r.Name
+								</option>
+							}
+						</select>
+					</div>
+				</div>
+				<div class="row mb-3">
+					<div class="offset-sm-4 col-sm-4 d-grid">
+						<button type="submit" class="btn btn-primary">Add</button>
+					</div>
+					<div class="col-sm-4 d-grid">
+						<a class="btn btn-outline-primary" href="/" role="button">Cancel</a>
+					</div>
+				</div>
+			</form>
+        </div>
+    </div>
+</div>

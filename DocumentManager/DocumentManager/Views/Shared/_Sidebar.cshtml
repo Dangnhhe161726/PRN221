@@ -1,58 +1,70 @@
-﻿<style>
-    .item-sidebar{
-        padding-top: 20px;
-    }
+﻿@using Microsoft.AspNetCore.Identity
+@using DocumentManager.Models
+
+@addTagHelper *, DocumentManager
+@inject SignInManager<Users> SignInManager
+@inject UserManager<Users> UserManager
+
+<style>
+	.item-sidebar {
+		padding-top: 20px;
+	}
 </style>
 
 <!-- Sidebar -->
 <div class="col-auto col-md-3 col-xl-3 px-sm-3 px-0 bg-dark">
-    <div class="d-flex flex-column align-items-center px-3 pt-2 min-vh-100" style="padding-left: 0;">
-        <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
-            <li>
-                <a href="/" class="nav-link text-white align-middle px-0 item-sidebar">
-                    <i class="fas fa-home"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
-                </a>
-            </li>
-            <li >
-                <a href="/document/list" class="nav-link text-white px-0 align-middle item-sidebar">
-                    <i class="fas fa-file"></i> <span class="ms-1 d-none d-sm-inline">Document</span>
-                </a>
-            </li>
-            <li>
-                <a href="/agencyIssue/index" class="nav-link text-white px-0 align-middle item-sidebar">
-                    <i class="fas fa-cog"></i> <span class="ms-1 d-none d-sm-inline">Agency Issues</span>
-                </a>
-            </li>
-            <li>
-                <a href="/category/index" class="nav-link text-white px-0 align-middle item-sidebar">
-                    <i class="fas fa-cog"></i> <span class="ms-1 d-none d-sm-inline">Category Document</span>
-                </a>
-            </li>
-            <li>
-                <a href="/groupdocument/index" class="nav-link text-white px-0 align-middle item-sidebar">
-                    <i class="fas fa-cog"></i> <span class="ms-1 d-none d-sm-inline">Group Document</span>
-                </a>
-            </li>
-            <li>
-                <a href="/namedocument/index" class="nav-link text-white px-0 align-middle item-sidebar">
-                    <i class="fas fa-cog"></i> <span class="ms-1 d-none d-sm-inline">Name Document</span>
-                </a>
-            </li>
-            <li>
-                <a href="/position/index" class="nav-link text-white px-0 align-middle item-sidebar">
-                    <i class="fas fa-cog"></i> <span class="ms-1 d-none d-sm-inline">Position</span>
-                </a>
-            </li>
-            <li>
-                <a href="/sercurity/index" class="nav-link text-white px-0 align-middle item-sidebar">
-                    <i class="fas fa-cog"></i> <span class="ms-1 d-none d-sm-inline">Sercurity</span>
-                </a>
-            </li>
-            <li>
-                <a href="/signer/index" class="nav-link text-white px-0 align-middle item-sidebar">
-                    <i class="fas fa-cog"></i> <span class="ms-1 d-none d-sm-inline">Signer</span>
-                </a>
-            </li>
-        </ul>
-    </div>
+	<div class="d-flex flex-column align-items-center px-3 pt-2 min-vh-100" style="padding-left: 0;">
+		<ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+			<li>
+				<a href="/" class="nav-link text-white align-middle px-0 item-sidebar">
+					<i class="fas fa-home"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
+				</a>
+			</li>
+			<li>
+				<a href="/users" class="nav-link text-white align-middle px-0 item-sidebar" asp-role="admin">
+					<i class="fas fa-user"></i> <span class="ms-1 d-none d-sm-inline">User</span>
+				</a>
+			</li>
+			<li>
+				<a href="/document/list" class="nav-link text-white px-0 align-middle item-sidebar">
+					<i class="fas fa-file"></i> <span class="ms-1 d-none d-sm-inline">Document</span>
+				</a>
+			</li>
+			<li>
+				<a href="/agencyIssue/index" class="nav-link text-white px-0 align-middle item-sidebar" asp-role="admin, employee">
+					<i class="fas fa-cog"></i> <span class="ms-1 d-none d-sm-inline">Agency Issues</span>
+				</a>
+			</li>
+			<li>
+				<a href="/category/index" class="nav-link text-white px-0 align-middle item-sidebar" asp-role="admin, employee">
+					<i class="fas fa-list"></i> <span class="ms-1 d-none d-sm-inline">Category Document</span>
+				</a>
+			</li>
+			<li>
+				<a href="/groupdocument/index" class="nav-link text-white px-0 align-middle item-sidebar" asp-role="admin, employee">
+					<i class="fas fa-group"></i> <span class="ms-1 d-none d-sm-inline">Group Document</span>
+				</a>
+			</li>
+			<li>
+				<a href="/namedocument/index" class="nav-link text-white px-0 align-middle item-sidebar" asp-role="admin, employee">
+					<i class="fas fa-signature"></i> <span class="ms-1 d-none d-sm-inline">Name Document</span>
+				</a>
+			</li>
+			<li>
+				<a href="/position/index" class="nav-link text-white px-0 align-middle item-sidebar" asp-role="admin, employee">
+					<i class="fas fa-quote-left"></i> <span class="ms-1 d-none d-sm-inline">Position</span>
+				</a>
+			</li>
+			<li>
+				<a href="/sercurity/index" class="nav-link text-white px-0 align-middle item-sidebar" asp-role="admin, employee">
+					<i class="fas fa-shield-virus"></i> <span class="ms-1 d-none d-sm-inline">Sercurity</span>
+				</a>
+			</li>
+			<li>
+				<a href="/signer/index" class="nav-link text-white px-0 align-middle item-sidebar" asp-role="admin, employee">
+					<i class="fas fa-user-edit"></i> <span class="ms-1 d-none d-sm-inline">Signer</span>
+				</a>
+			</li>
+		</ul>
+	</div>
 </div>

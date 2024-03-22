@@ -347,6 +347,9 @@ namespace DocumentManager.Migrations
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
 
+                    b.Property<bool>("Enabled")
+                        .HasColumnType("bit");
+
                     b.Property<string>("FristName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -430,22 +433,22 @@ namespace DocumentManager.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "d4c35a94-7d50-462d-be5c-b20ee6cfd5ea",
-                            ConcurrencyStamp = "b73390b2-fd05-49a2-840b-28aeecb6e21a",
+                            Id = "7bd89767-5249-4d99-824d-af4d2c833ba7",
+                            ConcurrencyStamp = "70599f88-16b2-40fa-a378-bf1fe2816d99",
                             Name = "admin",
                             NormalizedName = "admin"
                         },
                         new
                         {
-                            Id = "fe681071-745d-4b94-9842-da706a69115d",
-                            ConcurrencyStamp = "7f22abf5-1739-41f4-943e-6bdd92fea296",
+                            Id = "7a6bc0af-7f99-405f-831e-666d6c30fe58",
+                            ConcurrencyStamp = "193edeb8-6ea7-4296-bfe5-b02e522aaa33",
                             Name = "employee",
                             NormalizedName = "employee"
                         },
                         new
                         {
-                            Id = "baac8db5-58a9-4692-adfb-cafe46084f80",
-                            ConcurrencyStamp = "aa970356-7bcb-48f5-8e11-df6aa26e2b58",
+                            Id = "c0ecbe05-7e63-491a-9bae-951a1bccdc93",
+                            ConcurrencyStamp = "a6fca68b-56d5-40d5-80ad-5ff6651e9e09",
                             Name = "senior",
                             NormalizedName = "senior"
                         });

@@ -8,7 +8,7 @@ namespace DocumentManager.Models
         public string LastName { get; set; }
         public string Address { get; set; }
         public DateTime CreatedAt { get; set; }
-
+        public bool Enabled { get; set; }
         public virtual ICollection<Signer>? Signers { get; set; }
         public virtual ICollection<Document>? Documents { get; set; }
     }

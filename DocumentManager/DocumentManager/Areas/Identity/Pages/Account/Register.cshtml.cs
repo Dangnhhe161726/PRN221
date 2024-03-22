@@ -134,7 +134,8 @@ namespace DocumentManager.Areas.Identity.Pages.Account
                     Email = Input.Email,
                     PhoneNumber = Input.PhoneNumber,
                     Address = Input.Address,
-                    CreatedAt = DateTime.Now
+                    CreatedAt = DateTime.Now,
+                    Enabled = true
                 };
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
