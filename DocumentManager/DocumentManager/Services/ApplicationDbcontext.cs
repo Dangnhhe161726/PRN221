@@ -31,7 +31,9 @@ namespace DocumentManager.Services
             employee.NormalizedName = "employee";
             var senior = new IdentityRole("senior");
             senior.NormalizedName = "senior";
-            modelBuilder.Entity<IdentityRole>().HasData(admin, employee, senior);
+            var signer = new IdentityRole("signer");
+			signer.NormalizedName = "signer";
+            modelBuilder.Entity<IdentityRole>().HasData(admin, employee, senior, signer);
 
 
             modelBuilder.Entity<AgencyIssue>(entity =>

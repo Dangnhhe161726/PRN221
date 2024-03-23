@@ -2,29 +2,33 @@
 @model DocumentManager.Pages.Documents.DocumentViewModel
 @{
 }
+@using Microsoft.AspNetCore.Identity
 @using DocumentManager.Models;
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, DocumentManager
+@inject SignInManager<Users> SignInManager
+@inject UserManager<Users> UserManager
 
 <style>
 	.btn-custom {
 		margin-right: 10px; 
-		margin-bottom: 10px; /* Adjust spacing between buttons */
+		margin-bottom: 10px;
 	}
 	.custom-input {
 		width: 200px;
-		margin-right: 10px; /* Adjust as needed */
-		margin-bottom: 10px; /* Adjust as needed */
+		margin-right: 10px;
+		margin-bottom: 10px;
 	}
 
 	.custom-select {
 		width: 200px;
-		margin-right: 10px; /* Adjust as needed */
-		margin-bottom: 10px; /* Adjust as needed */
+		margin-right: 10px; 
+		margin-bottom: 10px; 
 	}
 
 	.custom-button {
-		margin-left: 10px; /* Adjust as needed */
-		margin-bottom: 10px; /* Adjust as needed */
+		margin-left: 10px; 
+		margin-bottom: 10px;
 	}
 </style>
 
@@ -40,44 +44,14 @@
 			<!--Button feature-->
 			<div class="row mb-5">
 				<div class="col">
-					<a class="btn btn-primary btn-custom" asp-page="./CreateDocument">New Document</a>
+					<a class="btn btn-primary btn-custom" asp-page="./CreateDocument" asp-role="admin, employee">New Document</a>
 					<button class="btn btn-success btn-custom export-button">Export Excel</button>
-					<form method="post" class="form-inline">
+					<form method="get" class="form-inline">
 						<div class="form-group">
-							<input type="text" id="searchname" class="form-control custom-input" name="searchname" value="@Model.search" placeholder="Search Name...">
+							<input type="text" id="searchname" class="form-control custom-input" name="search" value="@Model.search" placeholder="Search Name...">
 						</div>
-
-						<div class="form-group">
-							<select class="form-control custom-select" id="CategoryId" name="CategoryId">
-								<option value="">Get All</option>
-								@if (Model.GetCategory != null)
-								{
-									@foreach (var item in Model.categories)
-									{
-										@if (item.Id == Model.GetCategory.Id)
-										{
-											<option value="@item.Id" selected>@item.Name</option>
-										}
-										else
-										{
-											<option value="@item.Id">@item.Name</option>
-										}
-									}
-								}
-								else
-								{
-									@foreach (var item in Model.categories)
-									{
-										<option value="@item.Id">@item.Name</option>
-									}
-								}
-							</select>
-						</div>
-
-						<button type="submit" class="btn btn-primary custom-button">Submit</button>
+						<input type="submit" class="btn btn-primary custom-button" value="Search"></input>
 					</form>
-
-
 
 			<!------------------>
 
@@ -86,11 +60,11 @@
 					<thead class="thead-dark">
 						<tr>
 						@*	<th scope="col"></th>*@
+							<th scope="col">Name Document</th>
 							<th scope="col">Describe</th>
 							<th scope="col">Date Sign</th>
 							<th scope="col">Date To</th>
 							<th scope="col">Date Out</th>
-							<th scope="col">Status</th>
 							<th scope="col">Categories</th>
 							<th scope="col">Action</th>
 						</tr>
@@ -100,16 +74,16 @@
 						{
 								<tr>
 								@*	<th scope="row">1</th>*@
+									<td scope="col">@document.NameDocument?.Name</td>
 									<td>@document.Describe</td>
-								<td>@document.DateSign?.ToString("dd-mm-yyyy")</td>
-								<td>@document.DateTo?.ToString("dd-mm-yyyy")</td>
-								<td>@document.DateOut?.ToString("dd-mm-yyyy")</td>
-									<td>@document.Status</td>
-								<td>@document.Category.Name</td>
+									<td>@document.DateSign?.ToString("dd-mm-yyyy")</td>
+									<td>@document.DateTo?.ToString("dd-mm-yyyy")</td>
+									<td>@document.DateOut?.ToString("dd-mm-yyyy")</td>
+									<td>@document.Category?.Name</td>
 									<td>
 										<a class="btn btn-info" asp-page="./Details" asp-route-id="@document?.Id"><i class="fas fa-eye"></i></a>
 										<a class="btn btn-save " asp-page="./Edit" asp-route-id="@document?.Id"><i class="fas fa-pen"></i></a>
-										<a class="btn btn-danger" asp-page="./Delete" asp-route-id="@document?.Id"><i class="fas fa-trash"></i></a>
+										<a class="btn btn-danger" asp-page="./Delete" asp-route-id="@document?.Id" asp-role="admin,employee"><i class="fas fa-trash"></i></a>
 									</td>
 								</tr>
 						}
@@ -138,8 +112,7 @@
 </div>
 </div>
 </div>
-@* <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> *@
+
 @section Scripts {
 	<script>
 		$(document).ready(function () {
@@ -154,13 +127,11 @@
 				});
 				$('table tbody tr').each(function () {
 					var row = [];
-					$(this).find('td:not(:last-child)').each(function () { // Loại Hàm Cuối
+					$(this).find('td:not(:last-child)').each(function () {
 						var cellData = $(this).text().trim();
-						// Kiểm tra xem cellData có phải là chuỗi ngày hợp lệ không
 						if (!isNaN(Date.parse(cellData))) {
-							// chỉnh format date the date as YYYY-MM-DD
 							var date = new Date(cellData);
-							cellData = date.toLocaleDateString('en-US'); // format to MM/DD/YYYY
+							cellData = date.toLocaleDateString('en-US');
 						}
 						row.push('"' + cellData.replace(/"/g, '""') + '"');
 					});

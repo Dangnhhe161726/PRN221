@@ -9,6 +9,7 @@ using DocumentManager.Areas.Identity.Pages.Account;
 using Microsoft.AspNetCore.WebUtilities;
 using System.Text.Encodings.Web;
 using System.Text;
+using DocumentManager.Services;
 
 namespace DocumentManager.Pages.User
 {
@@ -22,6 +23,7 @@ namespace DocumentManager.Pages.User
 		private readonly ILogger<RegisterModel> _logger;
 		private readonly IEmailSender _emailSender;
 		private readonly RoleManager<IdentityRole> _roleManager;
+		private readonly ApplicationDbcontext _context;
 
 		public CreateModel(
 			UserManager<Users> userManager,
@@ -29,7 +31,8 @@ namespace DocumentManager.Pages.User
 			SignInManager<Users> signInManager,
 			ILogger<RegisterModel> logger,
 			IEmailSender emailSender,
-			RoleManager<IdentityRole> roleManager)
+			RoleManager<IdentityRole> roleManager,
+			ApplicationDbcontext context)
 		{
 			_userManager = userManager;
 			_userStore = userStore;
@@ -38,6 +41,7 @@ namespace DocumentManager.Pages.User
 			_logger = logger;
 			_emailSender = emailSender;
 			_roleManager = roleManager;
+			_context = context;
 		}
 
 		[BindProperty]
@@ -45,12 +49,14 @@ namespace DocumentManager.Pages.User
 		public string ReturnUrl { get; set; }
 		[BindProperty]
 		public string roleName {  get; set; }
+		[BindProperty]
+		public string PositionId { get; set; }
 
-	
 
 		public IList<AuthenticationScheme> ExternalLogins { get; set; }
 
 		public IList<IdentityRole> Roles { get; set; }
+		public IList<Position> positions { get; set; }
 
 		public class InputModel
 		{
@@ -106,6 +112,7 @@ namespace DocumentManager.Pages.User
 		{
 			returnUrl ??= Url.Content("~/users");
 			ModelState.Remove("ReturnUrl");
+			ModelState.Remove("PositionId");
 			if (ModelState.IsValid)
 			{
 				var user = new Users()
@@ -125,27 +132,44 @@ namespace DocumentManager.Pages.User
 				{
 					_logger.LogInformation("User created a new account with password.");
 					await _userManager.AddToRoleAsync(user, roleName);
-					var userId = await _userManager.GetUserIdAsync(user);
-					var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
-					code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
-					var callbackUrl = Url.Page(
-						"/Account/ConfirmEmail",
-						pageHandler: null,
-						values: new { area = "Identity", userId = userId, code = code, returnUrl = returnUrl },
-						protocol: Request.Scheme);
-
-					await _emailSender.SendEmailAsync(Input.Email, "Confirm your email",
-						$"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
-
-					if (_userManager.Options.SignIn.RequireConfirmedAccount)
+					var UserId = await _userManager.GetUserIdAsync(user);
+					if (roleName.Equals("signer"))
 					{
-						return RedirectToPage("RegisterConfirmation", new { email = Input.Email, returnUrl = returnUrl });
+						if (!String.IsNullOrEmpty(PositionId))
+						{
+							Signer signer = new Signer
+							{
+								Name = Input.FristName + " " + Input.LastName,
+								userId = user.Id,
+								Pid = int.Parse(PositionId)
+							};
+							if(signer != null)
+							{
+								_context.Signers.Add(signer);
+								_context.SaveChanges();
+							}
+						}
 					}
-					else
-					{
-						await _signInManager.SignInAsync(user, isPersistent: false);
+					//var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+					//code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
+					//var callbackUrl = Url.Page(
+					//	"/Account/ConfirmEmail",
+					//	pageHandler: null,
+					//	values: new { area = "Identity", userId = userId, code = code, returnUrl = returnUrl },
+					//	protocol: Request.Scheme);
+
+					//await _emailSender.SendEmailAsync(Input.Email, "Confirm your email",
+					//	$"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
+
+					//if (_userManager.Options.SignIn.RequireConfirmedAccount)
+					//{
+					//	return RedirectToPage("RegisterConfirmation", new { email = Input.Email, returnUrl = returnUrl });
+					//}
+					//else
+					//{
+						//await _signInManager.SignInAsync(user, isPersistent: false);
 						return LocalRedirect(returnUrl);
-					}
+					//}
 				}
 				foreach (var error in result.Errors)
 				{
@@ -170,6 +194,7 @@ namespace DocumentManager.Pages.User
 		}
 		public async Task LoadAsync(string returnUrl = null)
 		{
+			positions = _context.Positions.ToList();
 			Roles = _roleManager.Roles.ToList();
 			ReturnUrl = returnUrl;
 			ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();

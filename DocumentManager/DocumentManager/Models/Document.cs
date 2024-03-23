@@ -31,6 +31,7 @@ namespace DocumentManager.Models
         public int? NameDocumentId { get; set; }//
         public int? SpecializedId { get; set; }//
         public int? CategoryId { get; set; }
+
         [MaxLength(450)]
         public string? Aid { get; set; }//
         public int? AgencyIssuesId { get; set; }//

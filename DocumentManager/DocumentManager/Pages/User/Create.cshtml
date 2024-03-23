@@ -6,13 +6,13 @@
 
 
 <div class="container-fluid">
-    <div class="row flex-nowrap">
-        <!-- Sidebar -->
-        @await Html.PartialAsync("_Sidebar")
+	<div class="row flex-nowrap">
+		<!-- Sidebar -->
+		@await Html.PartialAsync("_Sidebar")
 
-        <!-- Main Content -->
-        <div class="col py-3">
-            <!------------------>
+		<!-- Main Content -->
+		<div class="col py-3">
+			<!------------------>
 			<div asp-validation-summary="ModelOnly" class="text-danger"></div>
 			<form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
 				@* Frist Name *@
@@ -75,14 +75,31 @@
 				<div class="row mb-3">
 					<label class="col-sm-4 col-form-label">Role</label>
 					<div class="col-sm-8">
-						<select asp-for="roleName">
-							@foreach(var r in Model.Roles)
+						<select asp-for="roleName" onchange="showSecondSelect(this)" style="width: 200px;">
+							@foreach (var r in Model.Roles)
 							{
-								<option value="@r.Name">
-									@r.Name
-								</option>
+								<option value="@r.Name">@r.Name</option>
 							}
 						</select>
+					</div>
+				</div>
+				@* Position *@
+				<div class="row mb-3"  id="secondSelectContainer">
+					<label class="col-sm-4 col-form-label">Position</label>
+					<div class="col-sm-8">
+						@if (Model.positions != null && Model.positions.Count != 0)
+						{
+							<select asp-for="PositionId" style="width: 200px;">
+								@foreach (var item in Model.positions)
+								{
+									<option value="@item.Id">@item.Name</option>
+								}
+							</select>
+						}
+						@if(Model.positions == null || Model.positions.Count == 0)
+						{
+							<p style="color:red">Position do not haved created. Please create Position!</p>
+						}
 					</div>
 				</div>
 				<div class="row mb-3">
@@ -90,10 +107,35 @@
 						<button type="submit" class="btn btn-primary">Add</button>
 					</div>
 					<div class="col-sm-4 d-grid">
-						<a class="btn btn-outline-primary" href="/" role="button">Cancel</a>
+						<a class="btn btn-outline-primary" href="/users" role="button">Cancel</a>
 					</div>
 				</div>
 			</form>
-        </div>
-    </div>
+		</div>
+	</div>
 </div>
+
+
+<script>
+	function showSecondSelect(selectElement) {
+		var value = selectElement.value;
+		var secondSelectContainer = document.getElementById('secondSelectContainer');
+
+		if (value === "signer") {
+			secondSelectContainer.style.display = "flex";
+		} else {
+			secondSelectContainer.style.display = "none";
+		}
+	}
+	function hideOrShowSecondSelect() {
+		var firstSelect = document.querySelector('[asp-for="roleName"]');
+		var secondSelectContainer = document.getElementById('secondSelectContainer');
+
+		if (firstSelect && firstSelect.value === "signer") {
+			secondSelectContainer.style.display = "flex";
+		} else {
+			secondSelectContainer.style.display = "none";
+		}
+	}
+	document.addEventListener("DOMContentLoaded", hideOrShowSecondSelect);
+</script>

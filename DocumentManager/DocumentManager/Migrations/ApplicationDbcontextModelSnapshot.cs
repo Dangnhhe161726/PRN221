@@ -433,24 +433,31 @@ namespace DocumentManager.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "7bd89767-5249-4d99-824d-af4d2c833ba7",
-                            ConcurrencyStamp = "70599f88-16b2-40fa-a378-bf1fe2816d99",
+                            Id = "dfa2692d-10f1-4e31-a2ab-8cf95ea68b54",
+                            ConcurrencyStamp = "9858fa93-6865-49d0-afba-947ceadffebc",
                             Name = "admin",
                             NormalizedName = "admin"
                         },
                         new
                         {
-                            Id = "7a6bc0af-7f99-405f-831e-666d6c30fe58",
-                            ConcurrencyStamp = "193edeb8-6ea7-4296-bfe5-b02e522aaa33",
+                            Id = "f0151099-025e-4149-8ac9-1f5ab7b10f2e",
+                            ConcurrencyStamp = "4ea333b3-bc8a-4b35-8dd4-dd2dd12a740f",
                             Name = "employee",
                             NormalizedName = "employee"
                         },
                         new
                         {
-                            Id = "c0ecbe05-7e63-491a-9bae-951a1bccdc93",
-                            ConcurrencyStamp = "a6fca68b-56d5-40d5-80ad-5ff6651e9e09",
+                            Id = "5ea9665d-2c60-4e58-89b5-367a2c016b0d",
+                            ConcurrencyStamp = "a572eabf-080a-43e1-9706-0eb165f845e7",
                             Name = "senior",
                             NormalizedName = "senior"
+                        },
+                        new
+                        {
+                            Id = "e4882ec6-9ef9-44c7-b5ee-2959bd2c6548",
+                            ConcurrencyStamp = "9ab545b5-8d5a-4bf2-83fa-130055faf447",
+                            Name = "signer",
+                            NormalizedName = "signer"
                         });
                 });
 
