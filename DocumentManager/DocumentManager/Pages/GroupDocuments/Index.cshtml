@@ -1,0 +1,78 @@
+﻿@page "/groupdocument/index"
+@model DocumentManager.Pages.GroupDocuments.IndexModel
+
+@using DocumentManager.Models;
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <!-- Sidebar -->
+        @await Html.PartialAsync("_Sidebar")
+
+        <!-- Main Content -->
+        <div class="col py-3">
+
+            <!--Button feature-->
+            <div class="row mb-5">
+                <div class="col">
+                    <a class="btn btn-primary" asp-page="./Create">New GroupDocument</a>
+                </div>
+
+            </div>
+            <!------------------>
+
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Expiration_Year</th>
+                            <th scope="col">Category</th>
+                            <th scope="col">Status</th>
+                            <th scope="col">Action</th>
+
+                        @*    <th scope="col">Status</th>
+                            <th scope="col">Action</th>*@
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (GroupDocument group in Model.GroupDocument)
+                        {
+                            <tr>
+                          @*      <th scope="row">1</th>*@
+                                <td>@group.Id</td>
+                                <td>@group.Name</td>
+                                <td>@group.ExpirationYear?.ToString("dd-mm-yyyy")</td>
+                                <td>@group.Category</td>
+                                <td>
+                                    @if (group.Status.HasValue && group.Status.Value)
+                                    {
+                                        <span class="text-success">Active</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="text-danger">Inactive</span>
+                                    }
+                                </td>
+                                <td>
+                              
+
+                                    <a class="btn btn-info" href="Details?id=@group.Id"><i class="fas fa-eye"></i></a>
+                                    <a href="Edit?id=@group.Id" class="btn btn-primary btn-sm edit" title="Edit">
+                                             <i class="fa fa-edit"></i>
+                                            </a>
+
+                                    <a href="Delete?id=@group.Id" class="btn btn-primary btn-sm edit" title="Delete">
+                                        <i class="fa fa-trash"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

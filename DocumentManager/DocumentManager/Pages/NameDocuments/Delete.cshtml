@@ -1,0 +1,68 @@
+﻿@page "/NameDocument/Delete"
+@model DocumentManager.Pages.NameDocuments.DeleteModel
+
+
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <!-- Sidebar -->
+        @await Html.PartialAsync("_Sidebar")
+        <div class="col py-3">
+
+            <!--Button feature-->
+            <div class="row mb-5">
+                <div class="col">
+                    <h3>Are you sure you want to delete this?</h3>
+                </div>
+
+            </div>
+            <!------------------>
+
+            <div class="table-responsive">
+                <!-- Main Content -->
+                <div class="col-md-7">
+                    <!-- Adjusted width to col-md-7 -->
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">NameDocument Details</h5>
+                            <dl class="row">
+                                <form method="post">
+                                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                    <input type="hidden" asp-for="NameDocument.Id" />
+                                    <div class="form-group">
+                                        <label asp-for="NameDocument.Name" class="control-label"></label>
+                                        <input asp-for="NameDocument.Name" class="form-control" />
+                                        <span asp-validation-for="NameDocument.Name" class="text-danger"></span>
+                                    </div>
+                                
+                                    <div class="form-group">
+                                    
+                                            <input type="hidden" asp-for="NameDocument.Id" />
+                                            <input type="submit" value="Delete" class="btn btn-danger" /> |
+                                        
+                                     
+                                        <a asp-page="./Index" class="btn btn-secondary">Back to List</a>
+                                    </div>
+                                </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*<dl class="row">
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.NameDocument.Name)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.NameDocument.Name)
+    </dd>
+</dl>
+
+<form method="post">
+    <input type="hidden" asp-for="NameDocument.Id" />
+    <input type="submit" value="Delete" class="btn btn-danger" /> |
+    <a asp-page="./Index">Back to List</a>
+</form>*@

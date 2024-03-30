@@ -1,0 +1,68 @@
+﻿@page "/GroupDocument/Details"
+@model DocumentManager.Pages.GroupDocuments.DetailsModel
+
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <!-- Sidebar -->
+        @await Html.PartialAsync("_Sidebar")
+        <div class="col py-3">
+
+            <!--Button feature-->
+            <div class="row mb-5">
+                <div class="col">
+                    <a class="btn btn-primary" asp-page="./Create">New GroupDocument</a>
+                </div>
+
+            </div>
+            <!------------------>
+
+            <div class="table-responsive">
+                      <!-- Main Content -->
+                <div class="col-md-7">
+                <!-- Adjusted width to col-md-7 -->
+                <div class="card">
+                <div class="card-body">
+                <h5 class="card-title">Document Details</h5>
+                <dl class="row">
+                <div class="col-sm-6">
+                <dt class="text-muted">Document Name</dt>
+                <dd>@Html.DisplayFor(model => model.GroupDocument.Name)</dd>
+                </div>
+
+                <div class="col-sm-6">
+                <dt class="text-muted">Expiration Year</dt>
+                <dd>@Html.DisplayFor(model => model.GroupDocument.ExpirationYear)</dd>
+                </div>
+
+                <div class="col-sm-6">
+                <dt class="text-muted">Category</dt>
+                <dd>@Html.DisplayFor(model => model.GroupDocument.Category)</dd>
+                </div>
+
+                <div class="col-sm-6">
+                <dt class="text-muted">Status</dt>
+                <dd>
+                @if (Model.GroupDocument.Status.HasValue && Model.GroupDocument.Status.Value)
+                {
+                <span class="badge badge-success">Active</span>
+                }
+                else
+                {
+                <span class="badge badge-danger">Inactive</span>
+                }
+                </dd>
+                </div>
+                </dl>
+                </div>
+                <div class="card-footer">
+                <a asp-page="./Edit" asp-route-id="@Model.GroupDocument?.Id" class="btn btn-primary">Edit</a>
+                <a asp-page="./Index" class="btn btn-secondary">Back to List</a>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

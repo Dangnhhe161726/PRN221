@@ -1,0 +1,103 @@
+﻿@page "/GroupDocument/Edit"
+@model DocumentManager.Pages.GroupDocuments.EditModel
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <!-- Sidebar -->
+        @await Html.PartialAsync("_Sidebar")
+        <div class="col py-3">
+
+            <!--Button feature-->
+            <div class="row mb-5">
+                <div class="col">
+                    <a class="btn btn-primary" asp-page="./Create">New GroupDocument</a>
+                </div>
+
+            </div>
+            <!------------------>
+
+            <div class="table-responsive">
+                <!-- Main Content -->
+                <div class="col-md-7">
+                    <!-- Adjusted width to col-md-7 -->
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Document Details</h5>
+                            <dl class="row">
+                                <form method="post">
+                                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                    <input type="hidden" asp-for="GroupDocument.Id" />
+                                    <div class="form-group">
+                                        <label asp-for="GroupDocument.Name" class="control-label"></label>
+                                        <input asp-for="GroupDocument.Name" class="form-control" />
+                                        <span asp-validation-for="GroupDocument.Name" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="GroupDocument.ExpirationYear" class="control-label"></label>
+                                        <input asp-for="GroupDocument.ExpirationYear" class="form-control" />
+                                        <span asp-validation-for="GroupDocument.ExpirationYear" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="GroupDocument.Category" class="control-label"></label>
+                                        <input asp-for="GroupDocument.Category" class="form-control" />
+                                        <span asp-validation-for="GroupDocument.Category" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="GroupDocument.Status" class="control-label">Status</label>
+                                        <div>
+                                            <label class="radio-inline">
+                                                <input type="radio" asp-for="GroupDocument.Status" value="true" /> Active
+                                            </label>
+                                            <label class="radio-inline">
+                                                <input type="radio" asp-for="GroupDocument.Status" value="false" /> InActive
+                                            </label>
+                                        </div>
+                                        <span asp-validation-for="GroupDocument.Status" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="submit" value="Save" class="btn btn-primary" />
+                                        <a asp-page="./Index" class="btn btn-secondary">Back to List</a>
+                                    </div>
+                                </form>
+                        </div>
+                     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+
+@*<form method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="GroupDocument.Id" />
+    <div class="form-group">
+        <label asp-for="GroupDocument.Name" class="control-label"></label>
+        <input asp-for="GroupDocument.Name" class="form-control" />
+        <span asp-validation-for="GroupDocument.Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="GroupDocument.ExpirationYear" class="control-label"></label>
+        <input asp-for="GroupDocument.ExpirationYear" class="form-control" />
+        <span asp-validation-for="GroupDocument.ExpirationYear" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="GroupDocument.Category" class="control-label"></label>
+        <input asp-for="GroupDocument.Category" class="form-control" />
+        <span asp-validation-for="GroupDocument.Category" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="GroupDocument.Status" class="control-label"></label>
+        <input asp-for="GroupDocument.Status" class="form-control" />
+        <span asp-validation-for="GroupDocument.Status" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Save" class="btn btn-primary" />
+    </div>
+</form>*@

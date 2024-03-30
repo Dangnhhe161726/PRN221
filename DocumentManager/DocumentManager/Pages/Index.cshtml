@@ -1,0 +1,17 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+            <!-- Sidebar -->
+            @await Html.PartialAsync("_Sidebar")
+
+        <!-- Main Content -->
+        <div class="col py-3">
+        </div>
+    </div>
+</div>
